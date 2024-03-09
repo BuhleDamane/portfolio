@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(215, 238, 248);
+    background-color: rgb(249, 247, 254);
 }
 :root {
   --primary-color: #6c63ff;
@@ -33,6 +33,10 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 p {
@@ -65,11 +69,21 @@ p {
 
 .secondary-link {
   border-radius: 4px;
+  font-family: "Playfair Display", serif;
   padding: 20px 15px;
+  width: 180px;
+  text-align: center;
+  background-color: rgb(242, 140, 157);
+  font-weight: 900;
+  font-size: 20px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.secondary-link:hover{
+  color: white;
 }
 
 .homepage-link {

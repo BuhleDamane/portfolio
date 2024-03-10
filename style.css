@@ -1,14 +1,11 @@
 body{
     background-color: rgb(249, 247, 254);
+    margin: 100px 0;
 }
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-body {
-  margin: 100px 0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
 }
 
 h1,
@@ -28,6 +25,10 @@ h1 {
 
 h2 {
   font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 h3 {
@@ -43,7 +44,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -74,6 +75,7 @@ p {
   width: 180px;
   text-align: center;
   background-color: rgb(242, 140, 157);
+  margin-top: 30px;
   font-weight: 900;
   font-size: 20px;
   text-decoration: none;
@@ -109,6 +111,10 @@ p {
 }
 .text-center1{
   text-align: center;
+  color: rgb(39, 33, 66);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
 }
 
 .email-link:hover {
@@ -128,12 +134,34 @@ p {
   }
   h2{
       text-align: center;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
   }
   p{
       text-align: center;
+      font-family: "Poppins", sans-serif;
   }
   .project-link{
       display: block;
       text-align: center;
   }
+}
+.new-page{
+  background-color: white;
+  margin-top: 60px;
+}
+.featured{
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+}
+.intro{
+  margin-bottom: 120px;
 }

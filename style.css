@@ -116,6 +116,9 @@ p {
   font-weight: 700;
   font-size: 38px;
 }
+.text-center-{
+  text-align: center;
+}
 
 .email-link:hover {
   text-decoration: underline;
@@ -147,6 +150,14 @@ p {
       display: block;
       text-align: center;
   }
+  .email-link{
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-center-{
+    font-size: 30px;
+    text-align: center;
+  }
 }
 .new-page{
   background-color: white;
@@ -169,3 +180,27 @@ p {
   height: 280px;
   margin-bottom: 30px;
 }
+.bd{
+  height: 400px;
+  width: 350px;
+}
+.text-center2{
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+.text-center3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.center4{
+  font-size: 16px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: rgb(33, 37, 41);
+}
+.about-bd{
+  margin-left: 150px;
+  padding: 20px;
+}
+
